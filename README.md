@@ -13,7 +13,7 @@ We will now be using that Token to re-authenticate users to shield access to any
 ### Links and Resources
 
 - [ci/cd](https://github.com/ehammes/bearer-auth-07/actions) (GitHub Actions)
-- [back-end server url Prod]() (Heroku prod) - TBD
+- [back-end server url Prod](https://cf-bearer-auth-07.herokuapp.com/) (Heroku prod)
 
 ### Setup
 
