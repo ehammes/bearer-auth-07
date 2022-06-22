@@ -18,7 +18,7 @@ const userSchema = (sequelize, DataTypes) => {
     token: {
       type: DataTypes.VIRTUAL,
       get() {
-        return jwt.sign({ username: this.username }, process.env.SECRET);
+        return jwt.sign({ username: this.username }, process.env.SECRET, { expiresIn: '9000000' });
       },
       set(payload){
         return jwt.sign(payload, process.env.SECRET);
